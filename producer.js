@@ -3,7 +3,7 @@ import readline from "readline";
 
 const kafka = new Kafka({
   clientId: "bone-app",
-  brokers: ["10.0.0.180:9092"],
+  brokers: ["####:9092"],
 });
 
 const rl = readline.createInterface({
